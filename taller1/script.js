@@ -12,13 +12,11 @@ button.addEventListener('click', function() {
     if (text) {
          
         var taskButton = document.createElement('button');
-         
-
-         
         var deleteButton = document.createElement('button');
          
-
-         
+          taskButton.textContent = text;
+          deleteButton.textContent ="Borrar"
+          
         deleteButton.addEventListener('click', function() {
              
             list.removeChild(taskButton);
