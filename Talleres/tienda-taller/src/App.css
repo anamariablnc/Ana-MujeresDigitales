@@ -1,0 +1,193 @@
+
+/*Estilos para el cuerpo, se pone el fondo*/
+body {
+     
+  background-color: #e6ecec; 
+}
+
+/*Estilos al mosulo que contiene el funcionamiento de la tienda*/
+.app {
+  max-width: 1200px;
+  margin: 100px auto 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:    #e0e4ec; 
+}
+
+/*Titulo principal*/
+
+h1 {
+  font-size: 40px;
+  color: #c0d1d1;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+/*Estilos a los productos dentro del contenedor*/
+.listaProducto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+/*Estilos al producto*/
+.ProductoItem {
+  
+   padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+   
+}
+ 
+/*Estilos a la imagen del producto*/
+.ProductoItem__imagen {
+  width: 200px;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  
+}
+
+/*Estilos para el contenido de los productos*/
+
+.ProductoItem h3 {
+  margin: 0;
+  font-size: 25px;
+  color: #c0d1d1;  
+   
+}
+/*Estilos del precio*/
+.ProductoItem p {
+   
+  font-style: italic;
+}
+
+ 
+
+ /*Estilos del boton "Detalles"*/
+ button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #93a1b9;
+  color:#e6ecec;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;  
+}
+
+/*Estilos al boton que abre la ventana emergente del carrito*/
+.carrito-button-img {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+ 
+}
+
+.carrito-button-img img {
+  width: 80px;
+  height: auto;
+  
+}
+
+/*Estilos al titulo dentro del carrito*/
+
+h2 {
+  font-size: 1.75rem;
+  color: #333;
+   
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/*Contenedor de la ventana emergente de los detallaes de un produvto*/
+.detalles-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(104, 103, 103, 0.815);
+}
+
+/*Estilos al contenido de la ventana emergente del carrito*/
+
+.detalles-modal-content {
+  background-color: #e6ecec;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 390px;
+  text-align: center;
+  position: relative;
+  
+}
+
+/*Estilos a la imagen de la ventana de detalles*/
+.detalles-modal-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+/*Estilos al boton de cerrar la ventana emergente*/
+.detalles-modal-close {
+  position: absolute;
+    background-color: #e0e4ec;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*Lista de los productos*/
+.listaProducto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  justify-content: space-between; 
+}
+
+/*Estilos para los contenedores de los productos*/
+.ProductoItem {
+  width:390px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ece6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*Lista de los productos*/
+.listaProducto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  justify-content: space-between; 
+}
+
+/*Estilos para los contenedores de los productos*/
+.ProductoItem {
+  width:390px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ece6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
