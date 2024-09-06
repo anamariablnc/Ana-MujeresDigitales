@@ -1,6 +1,6 @@
 //Importamos el react y el archivo de estilos del carrito
 import React from 'react';
-import './CarritoEstilos.css';
+import '../styles/CarritoModal.css';
 
 //Definimos el modulo
 

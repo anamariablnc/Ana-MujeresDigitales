@@ -1,6 +1,7 @@
 //Importamos react
 
 import React from 'react';
+import '../styles/ProductoItem.css';
 
 //Definimos el modulo
 const ProductoItem = ({ nombre, descripcion, precio, imagen, onViewDetails }) => {

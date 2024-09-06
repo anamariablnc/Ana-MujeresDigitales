@@ -2,7 +2,8 @@
 //Importamos el react y el archivo productItem 
 //Para añdir los productos a la lista
 import React from 'react';
-import ProductoItem from './ProductoItem';
+import ProductoItem from '../components/ProductoItem';
+import '../styles/ListaProductos.css';
 
 //Definimos el modulo
 const ListaProductos = ({ products, onViewDetails }) => {

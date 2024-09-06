@@ -1,7 +1,7 @@
 //Importamos react y los estilos de la aplicacion
 
 import React from 'react';
-import './App.css';
+import '../styles/DetallesModal.css';
 
 //Definimos el modulo
 const DetallesModal = ({ isOpen, onClose, product, onAddToCart }) => {

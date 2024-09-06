@@ -1,0 +1,29 @@
+
+/*Estilos para el cuerpo, se pone el fondo*/
+body {
+     
+  background-color: #e6ecec; 
+}
+
+/*Estilos al mosulo que contiene el funcionamiento de la tienda*/
+.app {
+  max-width: 1200px;
+  margin: 100px auto 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:    #e0e4ec; 
+}
+
+/*Titulo principal*/
+
+h1 {
+  font-size: 40px;
+  color: #c0d1d1;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-align: center;
+}
+

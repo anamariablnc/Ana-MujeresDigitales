@@ -1,0 +1,56 @@
+/*Estilos para los contenedores de los productos*/
+.ProductoItem {
+  
+   padding: 15px;
+   border-radius: 20px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   width:390px;
+   box-sizing: border-box;
+   padding: 15px;
+   border-radius: 8px;
+   background-color: #ece6e6;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+    
+ }
+ 
+ /*Estilos a la imagen del producto*/
+ .ProductoItem__imagen {
+   width: 200px;
+   height: auto;
+   max-height: 200px;
+   object-fit: cover;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   
+ }
+ 
+ /*Estilos para el contenido de los productos*/
+ 
+ .ProductoItem h3 {
+   margin: 0;
+   font-size: 25px;
+   color: #c0d1d1;  
+    
+ }
+ /*Estilos del precio*/
+ .ProductoItem p {
+    
+   font-style: italic;
+ }
+ 
+  
+ 
+  /*Estilos del boton "Detalles"*/
+  button {
+   padding: 10px 15px;
+   border: none;
+   background-color: #93a1b9;
+   color:#e6ecec;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 20px;  
+ }
+ 

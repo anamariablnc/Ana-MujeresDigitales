@@ -1,0 +1,40 @@
+/*Estilos a la imagen de la ventana de detalles*/
+.detalles-modal-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  
+  /*Estilos al boton de cerrar la ventana emergente*/
+  .detalles-modal-close {
+    position: absolute;
+      background-color: #e0e4ec;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .detalles-modal-content {
+    background-color: #e6ecec;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 390px;
+    text-align: center;
+    position: relative;
+    
+  }
+
+    /*Contenedor de la ventana emergente de los detallaes de un produvto*/
+    .detalles-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(104, 103, 103, 0.815);
+    }

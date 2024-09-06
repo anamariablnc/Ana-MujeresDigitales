@@ -1,6 +1,33 @@
-
-/*Estilos para la ventana emergente del carrito de compras*/
-.carrito-modal {
+/*Estilos al boton que abre la ventana emergente del carrito*/
+.carrito-button-img {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+   
+  }
+  
+  .carrito-button-img img {
+    width: 80px;
+    height: auto;
+    
+  }
+  
+  /*Estilos al titulo dentro del carrito*/
+  
+  h2 {
+    font-size: 1.75rem;
+    color: #333;
+     
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /*Estilos para la ventana emergente del carrito de compras*/
+  .carrito-modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +39,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(39, 39, 39, 0.199);
-  }
+   }
   
   /*Estilos para el contenido del carriot*/
   .carrito-modal-content {

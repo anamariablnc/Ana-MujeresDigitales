@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import DetallesModal from './detallesVentana';
-import ListaProductos from './listaProducto';
-import CarritoModal from './carrito';
-import './App.css';
-import carritoImg from './assets/CarritoIcono.png';
-import camisaImg from './assets/Camisa.png';
-import sacoImg from './assets/Saco.png';
-import camisaRImage from './assets/camisaR.png';
+import DetallesModal from '../components/DetallesModal';
+import ListaProductos from '../components/ListaProductos';
+import CarritoModal from '../components/CarritoModal';
+import carritoImg from '../assets/images/Carrito-Icono.png';
+import camisaImg from '../assets/images/Camisa.png';
+import sacoImg from '../assets/images/Saco.png';
+import camisaRImage from '../assets/images/camisa-R.png';
+import '../styles/App.css';
 
 const App = () => {
   const [products] = useState([

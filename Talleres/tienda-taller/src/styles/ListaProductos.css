@@ -1,0 +1,28 @@
+/*Estilos a los productos dentro del contenedor*/
+.listaProducto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+  
+  /*Lista de los productos*/
+  .listaProducto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: space-between; 
+  }
+  
+  
+  
+  /*Lista de los productos*/
+  .listaProducto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: space-between; 
+  }
+  
+  
