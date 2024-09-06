@@ -1,0 +1,91 @@
+
+
+/*Estilos principales de la pagina*/
+
+body{
+
+  background-color:  #274472;
+  padding: 20px;
+  padding-bottom: 0px;
+  color: #c3e0e5;
+
+}
+
+
+
+ 
+.Title{
+
+  text-align: center;
+  font-family: monospace;
+
+ 
+}
+h1{
+
+  font-family: monospace;
+
+}
+.container {
+  font-family: monospace;
+  text-align: center;
+  border-radius: 10px;
+  background-color:   #9f4141  ;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 30px;
+  padding: 20px;
+  padding-bottom: 5px;
+  color: #e5c3c3;
+  ; 
+}
+
+ 
+
+.converter {
+  margin: 20px ;
+}
+
+ 
+label {
+  display: block;
+   margin-top: 30px;
+   margin-bottom: 10px;
+  font-size: 20px;
+  font-family:monospace;
+  font-weight: bolder;
+   
+
+ }
+
+input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 100px;
+  text-align: center;
+  border-color: none;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color:#add9e0;
+
+  
+}
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 0px;
+}
+
+
+ ::placeholder{
+
+  font-family: monospace;
+   
+  color:#41729f;
+
+ }

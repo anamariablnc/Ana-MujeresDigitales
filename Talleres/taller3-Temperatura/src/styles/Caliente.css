@@ -1,0 +1,48 @@
+/*Estilos cuando el termometro sea igual o pase de 100°C o 212.00°F */
+
+body.background-red .container {
+    color: #e5c3c3;
+    background-color: #9f4141 ;
+    margin-left: 400px;
+    margin-right: 400px;
+  
+  }
+  body.background-red ::placeholder {
+    color:#e5c3c3;
+    font-family: monospace;
+  
+  }
+  
+  body.background-red input {
+    background-color: #722727;
+    color: #e5c3c3;
+  
+  }
+  
+  body.background-red h1{
+    font-family:monospace;
+    color:#e5c3c3;
+    gap: 10px;
+  
+  }
+  
+  /*Se oculta la imagen caliente-icon cuando los grados sean mayores a 100 o a 212.00*/
+  body.background-red .converter .frio-icon {
+  
+    display: none;
+  
+  }
+  
+  body.background-red {
+  
+    background-color:#9f4141;
+  
+  }
+  
+  body.background-red .result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: monospace;
+     
+  }

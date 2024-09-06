@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "tienda-taller",
+			"path": "../../Talleres-a/tienda-taller"
+		},
+		{
+			"name": "Talleres",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
